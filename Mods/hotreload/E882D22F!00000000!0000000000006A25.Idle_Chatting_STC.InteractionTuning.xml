@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<I c="SocialMixerInteraction" i="interaction" m="interactions.social.social_mixer_interaction" n="Idle_Chatting_STC" s="27173">
+  <V n="_icon" t="resource_key">
+    <U n="resource_key">
+      <T n="key" p="InGame\UI\Icons\InteractionQueueSubInteractions\icon_queuesubinteraction_friendly.png">2f7d0004:00000000:8baf7893abd95bda</T>
+    </U>
+  </V>
+  <T n="allow_autonomous">True</T>
+  <T n="allow_user_directed">False</T>
+  <V n="basic_content" t="no_content" />
+  <L n="basic_extras" />
+  <V n="content_score" t="enabled">
+    <U n="enabled">
+      <T n="base_score">1</T>
+      <L n="mood_preference">
+        <U>
+          <T n="key">14632<!--Mood: Mood_Angry--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14633<!--Mood: Mood_Bored--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14634<!--Mood: Mood_Confident--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14635<!--Mood: Mood_Embarrassed--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14636<!--Mood: Mood_Energized--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14637<!--Mood: Mood_Fine--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14638<!--Mood: Mood_Flirty--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14639<!--Mood: Mood_Focused--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14640<!--Mood: Mood_Happy--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14641<!--Mood: Mood_Inspired--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14642<!--Mood: Mood_Playful--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14643<!--Mood: Mood_Sad--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14644<!--Mood: Mood_Dazed--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14645<!--Mood: Mood_Stressed--></T>
+          <T n="value">0</T>
+        </U>
+        <U>
+          <T n="key">14646<!--Mood: Mood_Uncomfortable--></T>
+          <T n="value">0</T>
+        </U>
+      </L>
+      <L n="social_context_preference">
+        <U>
+          <T n="key">111600<!--SocialContextBit: relationshipBit_SocialContext_Retail_Uninterested--></T>
+        </U>
+        <U>
+          <T n="key">111601<!--SocialContextBit: relationshipBit_SocialContext_Retail_VeryInterested--></T>
+        </U>
+        <U>
+          <T n="key">111602<!--SocialContextBit: relationshipBit_SocialContext_Retail_MildlyInterested--></T>
+        </U>
+        <U>
+          <T n="key">24032<!--SocialContextBit: relbit_SocialContext_Casual--></T>
+        </U>
+        <U>
+          <T n="key">24076<!--SocialContextBit: relbit_SocialContext_Romance_Amorous--></T>
+        </U>
+        <U>
+          <T n="key">24077<!--SocialContextBit: relbit_SocialContext_Fun_Funny--></T>
+        </U>
+        <U>
+          <T n="key">24078<!--SocialContextBit: relbit_SocialContext_Romance_Suggestive--></T>
+        </U>
+        <U>
+          <T n="key">24079<!--SocialContextBit: relbit_SocialContext_Fun_Hilarious--></T>
+        </U>
+        <U>
+          <T n="key">24080<!--SocialContextBit: relbit_SocialContext_Romance_Steamy--></T>
+        </U>
+        <U>
+          <T n="key">24081<!--SocialContextBit: relbit_SocialContext_Fun_Boring--></T>
+        </U>
+        <U>
+          <T n="key">24082<!--SocialContextBit: relbit_SocialContext_Fun_Tedious--></T>
+        </U>
+        <U>
+          <T n="key">24083<!--SocialContextBit: relbit_SocialContext_Fun_InsufferablyTedious--></T>
+        </U>
+        <U>
+          <T n="key">24085<!--SocialContextBit: relbit_SocialContext_Friendship_Friendly--></T>
+        </U>
+        <U>
+          <T n="key">24086<!--SocialContextBit: relbit_SocialContext_Friendship_Distasteful--></T>
+        </U>
+        <U>
+          <T n="key">24087<!--SocialContextBit: relbit_SocialContext_Friendship_Offensive--></T>
+        </U>
+        <U>
+          <T n="key">24088<!--SocialContextBit: relbit_SocialContext_Friendship_Abhorrent--></T>
+        </U>
+        <U>
+          <T n="key">24089<!--SocialContextBit: relbit_SocialContext_Awkwardness_Awkward--></T>
+        </U>
+        <U>
+          <T n="key">24090<!--SocialContextBit: relbit_SocialContext_Awkwardness_VeryAwkward--></T>
+        </U>
+      </L>
+    </U>
+  </V>
+  <V n="display_name_in_queue" t="enabled">
+    <T n="enabled">0x98041977<!--String: "Chatting with {0.String}"--></T>
+  </V>
+  <T n="display_name_target">0x8C71C8F7<!--String: "Listen to {1.SimFirstName}'s Question"--></T>
+  <U n="display_name_text_tokens">
+    <L n="tokens">
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Actor</E>
+            </U>
+          </V>
+        </U>
+      </V>
+      <V t="participant_type">
+        <U n="participant_type">
+          <V n="objects" t="from_participant">
+            <U n="from_participant">
+              <E n="participant">Object</E>
+            </U>
+          </V>
+        </U>
+      </V>
+    </L>
+  </U>
+  <L n="interaction_category_tags">
+    <E>Interaction_Chat</E>
+    <E>Interaction_Mixer</E>
+    <E>Interaction_All</E>
+    <E>Interaction_SocialAll</E>
+    <E>Interaction_SocialMixer</E>
+    <E>Interaction_Social_Contagious</E>
+  </L>
+  <V n="outcome" t="test_based">
+    <U n="test_based">
+      <L n="fallback_outcomes">
+        <U>
+          <U n="outcome">
+            <V n="animation_ref" t="enabled">
+              <U n="enabled">
+                <T n="factory">28389<!--AnimationElement: Socials_Responses_Sad_HighIntensity_Sobbing--></T>
+              </U>
+            </V>
+            <L n="basic_extras">
+              <V t="balloon">
+                <U n="balloon">
+                  <L n="balloon_choices">
+                    <U>
+                      <V n="item" t="balloon_category">
+                        <T n="balloon_category">38721<!--BalloonCategory: BalloonCategory_SetSocialSTC_Casual_Speech--></T>
+                      </V>
+                    </U>
+                  </L>
+                  <L n="balloon_target">
+                    <E>Actor</E>
+                  </L>
+                </U>
+              </V>
+            </L>
+            <L n="loot_list">
+              <T>10955<!--LootActions: Loot_ForSocialsSocialMotiveSmall--></T>
+            </L>
+          </U>
+        </U>
+      </L>
+      <L n="tested_outcomes">
+        <U>
+          <L n="potential_outcomes">
+            <U>
+              <U n="outcome">
+                <V n="animation_ref" t="enabled">
+                  <U n="enabled">
+                     <T n="factory">28389<!--AnimationElement: Socials_Responses_Sad_HighIntensity_Sobbing--></T>
+                  </U>
+                </V>
+                <L n="basic_extras">
+                  <V t="balloon">
+                    <U n="balloon">
+                      <L n="balloon_choices">
+                        <U>
+                          <V n="item" t="balloon_category">
+                            <T n="balloon_category">38693<!--BalloonCategory: BalloonCategory_SetSocialSTC_Awkward_Thought--></T>
+                          </V>
+                        </U>
+                        <U>
+                          <V n="item" t="balloon_category">
+                            <T n="balloon_category">38701<!--BalloonCategory: BalloonCategory_SetSocialSTC_Offensive_Thought--></T>
+                          </V>
+                        </U>
+                      </L>
+                      <L n="balloon_target">
+                        <E>Actor</E>
+                      </L>
+                    </U>
+                  </V>
+                </L>
+                <L n="loot_list">
+                  <T>10955<!--LootActions: Loot_ForSocialsSocialMotiveSmall--></T>
+                </L>
+              </U>
+            </U>
+          </L>
+          <L n="tests">
+            <L>
+              <V t="social_context">
+                <U n="social_context">
+                  <L n="required_set">
+                    <T>24090<!--SocialContextBit: relbit_SocialContext_Awkwardness_VeryAwkward--></T>
+                    <T>24089<!--SocialContextBit: relbit_SocialContext_Awkwardness_Awkward--></T>
+                    <T>24088<!--SocialContextBit: relbit_SocialContext_Friendship_Abhorrent--></T>
+                    <T>24087<!--SocialContextBit: relbit_SocialContext_Friendship_Offensive--></T>
+                  </L>
+                  <E n="target_subject">Listeners</E>
+                </U>
+              </V>
+            </L>
+          </L>
+        </U>
+      </L>
+    </U>
+  </V>
+  <U n="posture_preferences">
+    <T n="apply_penalties">False</T>
+  </U>
+  <U n="progress_bar_enabled">
+    <T n="bar_enabled">False</T>
+  </U>
+  <U n="skill_loot_data">
+    <V n="level_range" t="enabled">
+      <U n="enabled">
+        <T n="lower_bound">1</T>
+        <T n="upper_bound">10</T>
+      </U>
+    </V>
+    <T n="stat">16699<!--Skill: statistic_Skill_AdultMajor_Charisma--></T>
+  </U>
+  <U n="sub_action">
+    <T n="base_weight">300</T>
+    <E n="mixer_group">IDLES</E>
+  </U>
+  <E n="target_type">GROUP</E>
+  <L n="test_globals" />
+  <T n="visible">False</T>
+</I>
